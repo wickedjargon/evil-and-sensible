@@ -11,8 +11,12 @@ This is an Emacs starter kit I've created that I'd recommend to anyone with Vim-
 - settings that allow fast startup time
 
 
-## to install this config and test it, run
+## Installation:
+To install, run
 
 ``` shell
 git clone --depth 1 https://github.com/wickedjargon/evil-and-sensible.git ~/.emacs.d/
 ```
+
+## Contact:
+feel free to open an issue if you have any questions.
