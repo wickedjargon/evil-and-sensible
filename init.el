@@ -159,11 +159,6 @@
 (use-package company
   :defer t
   :ensure t
-<<<<<<< HEAD
-=======
-  :bind
-  (("C-c z" . counsel-company))
->>>>>>> 650b65e (initial commit)
   :init
   (global-company-mode)
   )
@@ -225,18 +220,8 @@
 (use-package counsel
   :defer t
   :ensure t
-<<<<<<< HEAD
   :init
   (setq ivy-initial-inputs-alist nil)
-=======
-  :bind
-  (("C-c z" . counsel-company))
-  :init
-  (setq ivy-initial-inputs-alist nil)
-  (when (commandp 'counsel-M-x)
-    (global-set-key [remap execute-extended-command] #'counsel-M-x))
-  (global-set-key (kbd "C-c c") 'counsel-company)
->>>>>>> 650b65e (initial commit)
   )
 
 (use-package projectile
@@ -245,10 +230,6 @@
   (setq projectile-project-root-files '("manage.py" ".git/"))
   (setq projectile-ignored-projects '("~/"))
   (projectile-mode +1)
-<<<<<<< HEAD
-=======
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
->>>>>>> 650b65e (initial commit)
   )
 
 (use-package marginalia
