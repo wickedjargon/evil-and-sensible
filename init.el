@@ -171,7 +171,6 @@
 (use-package windsize
   :defer t
   :ensure t
-  :config
   )
 
 (use-package crux
