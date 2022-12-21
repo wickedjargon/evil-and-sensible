@@ -4,7 +4,7 @@ This is an Emacs starter kit I've created that I'd recommend to anyone with Vim-
 ## Details:
 - easy to read and modify configuration file.
 - sensible default settings.
-- no custom keybindings set.
+- no custom keybindings set (apart from evil's), you'll set these yourself.
 - clean look with no visual distractions.
 - many high-quality packages for you to discover and use (see the `use-package setup` section).
 - a comprehensive `.gitignore`.
